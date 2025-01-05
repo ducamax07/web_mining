@@ -12,8 +12,8 @@ Il est important de correctement suivre la procédure prescrite suivante afin d'
 
 En ouvrant le repository dans votre éditeur de texte, vous découvrirez différents fichiers.
 
-Parmi ceux-ci, les 3 fichiers à manipuler sont les codes Python. Ceux-ci sont respectivement nommés "data_collection_B.py", "text_mining_B.ipynb" et "links_analysis_B.ipynb". Ils sont à utiliser dans un environnement Python, le module Jupyter Notebook est à installer.Les fichiers "contentB.json" et "linksB.json" sont directement issus de notre scraping sur le sujet Diversité et Inclusion.
-Les répertoires "output", "outputgml", "outputLA", et "cluster_links" sont également inclus.
+Parmi ceux-ci, les 3 fichiers à manipuler sont les codes Python. Ceux-ci sont respectivement nommés "data_collection_B.py", "text_mining_B.ipynb" et "links_analysis_B.ipynb". Ils sont à utiliser dans un environnement Python, le module Jupyter Notebook est à installer.
+Il est possible que les dossiers contenant les outputs soient également ouverts. Si pas, ils se créeront en temps voulu.
 
 ## Procédure à suivre
 
@@ -21,7 +21,7 @@ Les répertoires "output", "outputgml", "outputLA", et "cluster_links" sont éga
 
 Avant de démarrer, veuillez vous assurer d'avoir installé les bibliothèques suivantes :'pip install wikipedia-api, nltk, matplotlib, networkx, pandas, numpy, scikit-learn, seaborn, jupyter, ipywidgets'
 
-Les packages à importer sont à chaque fois stipulés au début de chaque code respectif. Ils doivent être installés avant toute procédure.
+Lors de l'ouverture d'un des codes Jupyter notebook, une onglet "Configuration" est disponible au début. Nous vous prions d'éxecuter entièrement cet onglet avant de poursuivre.
 
 ### 2. Utilisez data_collection_B.py
 
